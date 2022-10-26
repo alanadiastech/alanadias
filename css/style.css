@@ -39,7 +39,7 @@ body {
 
 .perfil {
     border: 2px solid var(--color2);
-    margin-top: 5rem;
+    margin-top: 3rem;
     border-radius: 25px;
     width: 50%;
 }
