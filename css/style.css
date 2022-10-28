@@ -143,6 +143,10 @@ body {
     border: solid 2px var(--color4);
 }
 
+.aviso{
+    text-decoration: none;
+    color: var(--color2);
+}
 
 @media (min-width: 1024px) {
     .link-tree {
