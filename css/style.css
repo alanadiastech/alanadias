@@ -148,6 +148,16 @@ body {
     color: var(--color2);
 }
 
+.clear-results{
+    background-color: var(--color1) !important;
+    color: var(--color2) !important;
+    transition: all 0.5s linear;
+}
+
+.clear-results:hover {
+    background-color: var(--color4) !important;
+}
+
 @media (min-width: 1024px) {
     .link-tree {
         width: 40vw;

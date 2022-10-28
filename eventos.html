@@ -41,18 +41,24 @@
             </div>
         </div>
     </nav>
+   <div class="container w-25 mt-3">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="text" placeholder="Pesquisar" aria-label="Search" id="searchbar" onkeyup="pesquisar()">
+            <button class="btn clear-results" id="clear">Limpar</button>
+        </form>
+   </div>
     <section class="container-fluid text-center links">
         <h1 class="title">Eventos | Workshops Techs</h1>
-        <div class="row ">
-            <div class="col-lg-6 col-md-12 link-tree">
-              <a href ="https://websaty.com.br/comecando-como-dev/">Começando como se Dev</a>
-              <a href="https://www.sympla.com.br/evento-online/desmistificacao-da-inteligencia-artificial-entre-a-idealizacao-e-a-catastrofe/1750875">DESMISTIFICAÇÃO DA INTELIGÊNCIA ARTIFICIAL: entre a idealização e a catástrofe - 09/11</a>
-              <a href="https://www.sympla.com.br/evento-online/expolgpd2022/1729501">ExpoLGPD2022 - 10/12</a>                 
+        <div class="row">
+            <div class="col-lg-6 col-md-12 link-tree" id="lista">
+              <a class="pesquisa" href ="https://websaty.com.br/comecando-como-dev/">Começando como se Dev</a>
+              <a class="pesquisa" href="https://www.sympla.com.br/evento-online/desmistificacao-da-inteligencia-artificial-entre-a-idealizacao-e-a-catastrofe/1750875">DESMISTIFICAÇÃO DA INTELIGÊNCIA ARTIFICIAL: entre a idealização e a catástrofe - 09/11</a>
+              <a class="pesquisa" href="https://www.sympla.com.br/evento-online/expolgpd2022/1729501">ExpoLGPD2022 - 10/12</a>                 
            </div>
-            <div class="col-lg-6 col-md-12 link-tree">
-              <a href="https://www.sympla.com.br/evento-online/congresso-de-ti-9-edicao/1672640">Congresso de TI - 9ª Edição 08 a 10/12</a>
-              <a href="https://www.sympla.com.br/evento-online/ux-team-summit-2022-design-system/1730025">UX Team Summit 2022 - Design System - 04/11 </a>
-              <a href="https://www.sympla.com.br/evento/dbc-impact-automacao-avancada-com-machine-learning/1762076" >DBC Impact: Automação avançada com Machine Learning - 10/11</a>                  
+            <div class="col-lg-6 col-md-12 link-tree" id="lista">
+              <a class="pesquisa" href="https://www.sympla.com.br/evento-online/congresso-de-ti-9-edicao/1672640">Congresso de TI - 9ª Edição 08 a 10/12</a>
+              <a class="pesquisa" href="https://www.sympla.com.br/evento-online/ux-team-summit-2022-design-system/1730025">UX Team Summit 2022 - Design System - 04/11 </a>
+              <a class="pesquisa" href="https://www.sympla.com.br/evento/dbc-impact-automacao-avancada-com-machine-learning/1762076" >DBC Impact: Automação avançada com Machine Learning - 10/11</a>                  
            </div>
     </section>
     <section class="text-center text-warning"><p>Tem interesse em algum evento específico? Preencha o <a href="/contato.html" class="aviso"> formulário de contato</a>  e informe qual que terei prazer em ajudar!</p></section>
@@ -67,5 +73,6 @@
         new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="/scripts/script.js"></script>
 </body>
 </html>
