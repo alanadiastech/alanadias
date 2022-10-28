@@ -158,6 +158,8 @@ body {
     background-color: var(--color4) !important;
 }
 
+
+
 @media (min-width: 1024px) {
     .link-tree {
         width: 40vw;
@@ -169,10 +171,16 @@ body {
         width: 100%!important;
     }
 
-
     .btn-enviar {
         width: 50%;
     }
+
+    .title, .link-tree a{
+        font-size: var(--size2);
+    }
+
+
+
 }
 
         
